@@ -1,165 +1,100 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>CV Nabila Novi Alfiyah</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
-  <style>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Montserrat', sans-serif;
-    }
-    body {
-      display: flex;
-      background: #f5f7fa;
-      color: #333;
-    }
-    .sidebar {
-      width: 30%;
-      background-color: #d66f6f;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    .sidebar img {
-      border-radius: 50%;
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
-      margin-bottom: 20px;
-    }
-    .sidebar h2 {
-      font-size: 22px;
-      margin-bottom: 5px;
-    }
-    .section-title {
-      font-size: 16px;
-      margin: 20px 0 10px;
-      font-weight: 700;
-      border-bottom: 1px solid #fff;
-      padding-bottom: 5px;
-    }
-    .sidebar p, .sidebar a {
-      font-size: 14px;
-      margin-bottom: 10px;
-      display: block;
-      color: #fff;
-      text-decoration: none;
-    }
-    .content {
-      width: 70%;
-      padding: 40px;
-    }
-    .content h1 {
-      color: #f07e7e;
-      font-size: 28px;
-      font-weight: 700;
-    }
-    .content .profile {
-      margin: 20px 0;
-      font-size: 14px;
-    }
-    .content .section {
-      margin-top: 30px;
-    }
-    .content .section h3 {
-      color: #f06696;
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
-    .content .section p {
-      font-size: 14px;
-      line-height: 1.6;
-    }
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
-      margin-top: 10px;
-    }
-    .skill-item {
-      background-color: #ffffff;
-      color: #333;
-      padding: 6px 8px;
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 12px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    }
-    .skill-item img {
-      width: 16px;
-      height: 16px;
-    }
-    @media (max-width: 768px) {
-      body {
-        flex-direction: column;
-      }
-      .sidebar, .content {
-        width: 100%;
-        padding: 20px;
-      }
-      .content {
-        padding-top: 0;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="sidebar">
-    <img src="assets/WhatsApp Image 2025-05-25 at 11.56.44_f8e0f32e.jpg" alt="Foto Nabila">
-    <h2>Nabila Novi Alfiyah</h2>
-    <p><strong>Tempat/Tanggal Lahir:</strong><br>Rantau Prapat, 22 November 2005</p>
-    <p><strong>Alamat:</strong><br>Dusun X Jl.Bustamam, Tembung</p>
-    <p><strong>No HP:</strong><br>083137572155</p>
-    <p><strong>Moto:</strong><br>"Terus belajar dan berkembang menjadi lebih baik setiap hari."</p>
+  <div class="resume-container">
+    <div class="sidebar">
+      <div class="photo-section">
+        <img src="nabila.jpg" alt="Foto Profil">
+      </div>
 
-    <div class="section-title">Media Sosial</div>
-    <a href="https://instagram.com/nabilanovialfyh_" target="_blank">Instagram: @nabilanovialfyh_</a>
-    <a href="mailto:nabila@example.com">Email: nabilanovialfiyah22@gmail.com</a>
+      <div class="sidebar-section">
+        <h3>KONTAK</h3>
+        <p>📞 083137572155</p>
+        <p>📧 nabilanovialfyah22@gmail.com</p>
+        <p>📍 Dusun X Jl.Bustamam,Tembung</p>
+        <P>📱<a href="https://www.instagram.com/nabilanovialfyh_?igsh=bTdtbHJqc3MzZTNv"> nabilanovialfyh_</a>
+      </div>
+      <div class="sidebar-section">
+        <h3>KEAHLIAN</h3>
+        <ul>
+          <li>Editor Vidio (Capcut)</li>
+          <li>Ilustrasi Digital</li>
+          <li>Desain Grafis(Draw IO ,Canva)</li>
+          <li>Web Developer(HTML,CSS,JS)</li>
+          <li>Pengembangan Kreatif Konsep</li>
+          <li>Kolaborasi Tim</li>
+        </ul>
+      </div>
+      <ul></ul>
+      <section class="section contact">
+        <h2>Kontak Saya</h2>
+        <form action="#" method="post">
+          
+            <label for="name">Nama   :</label>
+            <input type="text" id="Nama" name="name" required />
 
+        <form action="#" method="post"></form>
 
-    <div class="section-title">Skill</div>
-    <div class="skills-grid">
-      <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" alt="Canva">Desain Canva</div>
-      <div class="skill-item"><img src="https://cdn-icons-png.flaticon.com/128/833/833472.png" alt="Video">Editing Video</div>
-      <div class="skill-item"><img src="https://cdn-icons-png.flaticon.com/128/685/685655.png" alt="Foto">Edit Foto</div>
-      <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">Java</div>
-      <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">MySQL</div>
-      <div class="skill-item"><img src="https://cdn-icons-png.flaticon.com/128/841/841364.png" alt="Website">Website</div>
-      <div class="skill-item"><img src="https://cdn-icons-png.flaticon.com/128/732/732220.png" alt="Word">Word</div>
-      <div class="skill-item"><img src="https://cdn-icons-png.flaticon.com/128/732/732235.png" alt="Excel">Excel</div>
+            <label for="email">Email :</label>
+            <input type="email" id="nabilanovialfyah22@gmail.com" name="email" required />
+
+        <form action="#" method="post"></form>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+      </div>
+      
+    </section>
+  </section>
+    <div class="main-content">
+      <h1><span>NABILA</span> NOVI ALFIYAH</h1>
+      <h2>DESAINER GRAFIS</h2>
+      <p class="intro">
+        Seorang desainer grafis berbakat dengan kreativitas yang tak terbatas. Saya berdedikasi untuk menghadirkan desain yang memukau dan memikat untuk klien-klien saya.
+      </p>
+
+      <div class="section">
+        <h3>PENDIDIKAN</h3>
+        <div class="edu-item">
+          <strong>SMA</strong> <span>2020-2023</span>
+          <p>SMA Swasta Budisatrya Medan</p>
+        </div>
+        <div class="edu-item">
+          <strong>Kuliah</strong> <span>2023-2025</span>
+          <p>Universitas Muhammadiyah Sumatera Utara S1 Sistem Informasi
+            (Sedang berjalan)</p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>PENGALAMAN</h3>
+        <div class="job-item">
+          <strong>Web Design</strong>
+          <p>Membuat UI/UX design dan Implementasi frontend
+            menggunakan HTML & CSS
+          </p>
+        </div>
+        <div class="job-item">
+          <strong>Desain Canva Poster</strong>
+          <p>Membuat desain poster Penerapan SMK3 
+            untuk mewujudkan SDM berkompeten dan unggul.</p>
+          <a href="https://www.instagram.com/p/DFvL_cXTlWW/?igsh=aTVhaGttOW9ieHVq">Poster</a>
+        </div>
+        <div class="job-item">
+          <strong>Poster & Ilustrasi Mandiri</strong>
+          <p>Proyek untuk latihan atau portofolio</p>
+        </div>
+      </div>
     </div>
-  </div>
-
-
-  <div class="content">
-    <h1>Nabila Novi Alfiyah</h1>
-    <div class="profile">
-      Seorang profesional muda yang antusias dalam bidang teknologi dan desain. Memiliki kemampuan dalam pengembangan website, pengolahan data menggunakan Microsoft Office, serta editing multimedia menggunakan berbagai platform. Memiliki motivasi tinggi untuk terus belajar dan mengembangkan diri.
-    </div>
-
-    <div class="section">
-      <h3>Riwayat Pendidikan</h3>
-      <p><strong>SMA Swasta Budisatrya Medan</strong><br>2020 - 2023</p>
-      <p><strong>S1-Sistem Informasi-Universitas Muhammadiyah Sumatera Utara</strong><br>2023-sekarang</p>
-    </div>
-    <div class="contact-form">
-      <h3>Hubungi Saya</h3>
-      <form>
-        <input type="text" name="nama" placeholder="Nama Anda" required>
-        <input type="email" name="email" placeholder="Email Anda" required>
-        <textarea name="pesan" rows="4" placeholder="Pesan Anda" required></textarea>
-        <button type="submit">Kirim</button>
-      </form>
-    </div>
-  </div>
   </div>
 </body>
 </html>
-
